@@ -1,0 +1,72 @@
+h1{
+    color:gold;
+    margin-left: 30px;
+}
+
+.box{
+    background-color:orangered;
+    display:flex;
+    justify-content:space-between
+}
+
+.window{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    gap:100px
+}
+
+p,h2{
+    text-align: center;
+    color:yellow
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    margin-top:20px;
+    margin-right:20px
+}
+
+.slider{
+    position:relative
+}
+
+.slider p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0
+}
+
+.slider:hover p{
+    opacity:1
+}
+
+.slider:hover img{
+    opacity:0.5
+}
+
+.chocolate{
+}
+
+body{
+    background-image:url("starsbg.jpeg")
+}
+
+.door{
+    margin-right: 30px
+}
+
+.door a{
+    margin-left: 20px;
+}
+
+a:link{
+    color:cornsilk
+}
+
+a:visited{
+    color:sandybrown
+}
